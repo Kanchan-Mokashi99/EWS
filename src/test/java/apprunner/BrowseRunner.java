@@ -8,6 +8,8 @@ import io.cucumber.testng.CucumberOptions;
 		
 		features = {"src\\test\\resources\\featurefile\\launch_browser.feature"},
 		glue = {"steps"}
+	
+			
 )
 
 public class BrowseRunner extends AbstractTestNGCucumberTests {
